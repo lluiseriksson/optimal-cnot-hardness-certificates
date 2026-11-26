@@ -1,0 +1,11 @@
+[project]
+name = "optimal-cnot-hardness-certificates"
+version = "1.0.0"
+description = "Formal Lean 4.35.0 & zero-float F_2 circuit verifier for NP-completeness of Optimal CNOT Synthesis (arXiv:2611.34138v1)"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "Lluis Eriksson"}]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]

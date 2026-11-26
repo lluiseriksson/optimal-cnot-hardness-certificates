@@ -1,0 +1,7 @@
+name = "CnotHardnessCert"
+version = "1.0.0"
+defaultTargets = ["CnotHardnessCert"]
+
+[[lean_lib]]
+name = "CnotHardnessCert"
+roots = ["CnotHardnessCert"]

@@ -1,0 +1,37 @@
+{
+  "schema": "CNOT-HARD-CERT-1.0",
+  "id": "C10",
+  "mode": "linear_oracle_cnot_lemma4",
+  "description": "C_4+diag linear oracle B_G in GL(10,2): B_G^2=I and exact 13-gate CNOT synthesis",
+  "graph": {
+    "n": 4,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ]
+    ]
+  },
+  "hamiltonian_min_vc": [
+    0,
+    2
+  ],
+  "claimed_cnot_size": 13,
+  "claimed_DXOR_BG": 12
+}

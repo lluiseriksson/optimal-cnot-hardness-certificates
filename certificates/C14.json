@@ -1,0 +1,73 @@
+{
+  "schema": "CNOT-HARD-CERT-1.0",
+  "id": "C14",
+  "mode": "free_resources_and_parity_thm5",
+  "description": "Theorem 5 NO instance with odd budget rounding on P_4 (tau=2, k=1 -> k'=0, K=7)",
+  "graph": {
+    "n": 4,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ]
+    ]
+  },
+  "vc_budget_k": 1,
+  "claimed_yes_instance": false,
+  "n_clean_ancillas": 0,
+  "augmented_circuit_ops": [
+    [
+      "CNOT",
+      0,
+      2
+    ],
+    [
+      "CNOT",
+      5,
+      0
+    ],
+    [
+      "CNOT",
+      5,
+      1
+    ],
+    [
+      "CNOT",
+      0,
+      3
+    ],
+    [
+      "CNOT",
+      6,
+      0
+    ],
+    [
+      "CNOT",
+      0,
+      2
+    ],
+    [
+      "CNOT",
+      7,
+      0
+    ],
+    [
+      "CNOT",
+      7,
+      4
+    ],
+    [
+      "CNOT",
+      0,
+      3
+    ]
+  ]
+}

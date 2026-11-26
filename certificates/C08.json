@@ -1,0 +1,75 @@
+{
+  "schema": "CNOT-HARD-CERT-1.0",
+  "id": "C08",
+  "mode": "gate_elimination_lemma3",
+  "description": "Optimal 9-gate XOR circuit on K_4 (m=6, tau=3): exact telescoping gate elimination",
+  "graph": {
+    "n": 4,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        3
+      ]
+    ]
+  },
+  "xor_gates": [
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      5,
+      2
+    ],
+    [
+      5,
+      3
+    ],
+    [
+      5,
+      4
+    ],
+    [
+      6,
+      3
+    ],
+    [
+      6,
+      4
+    ],
+    [
+      7,
+      4
+    ]
+  ],
+  "claimed_tau": 3,
+  "claimed_DXOR_FG": 9
+}

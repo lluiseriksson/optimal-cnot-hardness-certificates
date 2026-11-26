@@ -1,0 +1,93 @@
+{
+  "schema": "CNOT-HARD-CERT-1.0",
+  "id": "C13",
+  "mode": "free_resources_and_parity_thm5",
+  "description": "Theorem 5 YES instance on P_4 (tau=2, k=2 -> K=9) exercising zero-control no-op, zero-target copy, and free SWAP translation",
+  "graph": {
+    "n": 4,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ]
+    ]
+  },
+  "vc_budget_k": 2,
+  "claimed_yes_instance": true,
+  "n_clean_ancillas": 2,
+  "augmented_circuit_ops": [
+    [
+      "CNOT",
+      1,
+      9
+    ],
+    [
+      "CNOT",
+      8,
+      0
+    ],
+    [
+      "SWAP",
+      0,
+      8
+    ],
+    [
+      "CNOT",
+      0,
+      2
+    ],
+    [
+      "CNOT",
+      5,
+      0
+    ],
+    [
+      "CNOT",
+      5,
+      1
+    ],
+    [
+      "CNOT",
+      0,
+      3
+    ],
+    [
+      "CNOT",
+      6,
+      0
+    ],
+    [
+      "CNOT",
+      0,
+      2
+    ],
+    [
+      "CNOT",
+      7,
+      0
+    ],
+    [
+      "CNOT",
+      7,
+      4
+    ],
+    [
+      "CNOT",
+      0,
+      3
+    ],
+    [
+      "SWAP",
+      0,
+      8
+    ]
+  ]
+}

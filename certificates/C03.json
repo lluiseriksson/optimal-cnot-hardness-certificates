@@ -1,0 +1,29 @@
+{
+  "schema": "CNOT-HARD-CERT-1.0",
+  "id": "C03",
+  "mode": "promise_vc_reduction_lemma2",
+  "description": "Lemma 2 reduction on H=C_4 (n=4, tau=2) -> G (n=16, tau=12 even, independent branch-and-bound)",
+  "graph_H": {
+    "n": 4,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        0
+      ]
+    ]
+  },
+  "claimed_tau_H": 2,
+  "claimed_tau_G": 12
+}

@@ -1,0 +1,47 @@
+{
+  "schema": "CNOT-HARD-CERT-1.0",
+  "id": "C05",
+  "mode": "gate_elimination_lemma3",
+  "description": "Optimal 5-gate XOR circuit on P_4 (m=3, tau=2): full Case (a) gate elimination",
+  "graph": {
+    "n": 4,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ]
+    ]
+  },
+  "xor_gates": [
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      5,
+      2
+    ],
+    [
+      6,
+      2
+    ],
+    [
+      6,
+      4
+    ]
+  ],
+  "claimed_tau": 2,
+  "claimed_DXOR_FG": 5
+}

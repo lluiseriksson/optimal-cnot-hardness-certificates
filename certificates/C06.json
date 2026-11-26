@@ -1,0 +1,51 @@
+{
+  "schema": "CNOT-HARD-CERT-1.0",
+  "id": "C06",
+  "mode": "gate_elimination_lemma3",
+  "description": "Non-optimal 6-gate XOR circuit on P_4 exercising Case (b) vertex-merge projections x_u -> x_w",
+  "graph": {
+    "n": 4,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ]
+    ]
+  },
+  "xor_gates": [
+    [
+      1,
+      2
+    ],
+    [
+      0,
+      5
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      0,
+      7
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      0,
+      9
+    ]
+  ],
+  "claimed_tau": 2,
+  "claimed_DXOR_FG": 5
+}

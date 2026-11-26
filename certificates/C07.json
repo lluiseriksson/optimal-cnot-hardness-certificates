@@ -1,0 +1,67 @@
+{
+  "schema": "CNOT-HARD-CERT-1.0",
+  "id": "C07",
+  "mode": "gate_elimination_lemma3",
+  "description": "Optimal 8-gate XOR circuit on C_5 (m=5, tau=3): exact telescoping gate elimination",
+  "graph": {
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        0
+      ]
+    ]
+  },
+  "xor_gates": [
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      6,
+      2
+    ],
+    [
+      7,
+      3
+    ],
+    [
+      8,
+      3
+    ],
+    [
+      8,
+      5
+    ],
+    [
+      6,
+      5
+    ]
+  ],
+  "claimed_tau": 3,
+  "claimed_DXOR_FG": 8
+}

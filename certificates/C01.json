@@ -1,0 +1,21 @@
+{
+  "schema": "CNOT-HARD-CERT-1.0",
+  "id": "C01",
+  "mode": "promise_vc_reduction_lemma2",
+  "description": "Lemma 2 reduction on H=P_3 (n=3, tau=1) -> G (n=12, tau=8 even, Ham path verified)",
+  "graph_H": {
+    "n": 3,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        2
+      ]
+    ]
+  },
+  "claimed_tau_H": 1,
+  "claimed_tau_G": 8
+}
